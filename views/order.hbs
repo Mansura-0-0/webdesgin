@@ -1,0 +1,120 @@
+
+
+  
+</head>
+
+<body>
+    <main>
+        
+        <a href="#bottom" class="scroll-btn">Go to Bottom</a>
+        <h2>Order your favourite meal deals </h2>
+         <article class="recommendations">
+            <h2>Our Meal Deals </h2>
+
+            <section  class="dish">
+                <img src="images/HP.JPG" alt="Half ponder meal">
+                <h3>Half pounder</h3>
+                <p>Half pounder with cheese along wiht side of chips and a drink</p>
+                <p>8.99€</p>
+               <button class="add-to-cart-btn" data-name="Half pounder" data-price="8.99">Add to Cart</button>
+            </section >
+
+            <section  class="dish">
+                <img src="images/QP.JPG" alt="Quarter Pounder">
+                <h3>Quarter Pounder</h3>
+                <p>Freshly battered fish served with crispy fries.</p>
+                <p>6.99€</p>
+                <button class="add-to-cart-btn" data-name="Quarter Pounder" data-price="6.99">Add to Cart</button>
+            </section >
+
+            <section  class="dish">
+                <img src="images/DB.JPG" alt="Double beef">
+                <h3>Double beef</h3>
+                <p>Grilled to perfection with aromatic spices.</p>
+                <p>9.99€</p>
+                 <button class="add-to-cart-btn" data-name="Double beef" data-price="9.99">Add to Cart</button>
+            </section >
+
+            <section  class="dish">
+                <img src="images/CF.JPG" alt="Chicken fillet">
+                <h3>Chicken fillet</h3>
+                <p>Tender and juicy grilled meat served with fries.</p>
+                <p>7.99€</p>
+                 <button class="add-to-cart-btn" data-name="Chicken fillet" data-price="7.99">Add to Cart</button>
+            </section>
+            <section class="dish">
+                <img src="images/CB.JPG" alt="Chicken burger">
+                <h3>Chicken burger</h3>
+                <p>A satisfying burger combo with sides.</p>
+                <p>6.49€</p>
+                 <button class="add-to-cart-btn" data-name="Chicken burger" data-price="6.49">Add to Cart</button>
+            </section >
+
+            <section class="dish">
+                <img src="images/CS.JPG" alt="Chicken stripes">
+                <h3>Chicken stripes</h3>
+                <p>A delicious mix of chicken, fries, and spices.</p>
+                <p>5.99€</p>
+                 <button class="add-to-cart-btn" data-name="Chicken stripes" data-price="5.99">Add to Cart</button>
+            </section >
+            <section class="dish">
+                <img src="images/FC.JPG" alt="Fish and chips">
+                <h3>Fish and chips</h3>
+                <p>A satisfying burger combo with sides.</p>
+                <p>7.49€</p>
+                 <button class="add-to-cart-btn" data-name="Fish and chips" data-price="7.49">Add to Cart</button>
+            </section >
+
+            <section class="dish">
+                <img src="images/HD.JPG" alt="Hot Dog">
+                <h3>Hot Dog</h3>
+                <p>A delicious mix of chicken, fries, and spices.</p>
+                <p>4.99€</p>
+                 <button class="add-to-cart-btn" data-name="Hot Dog" data-price="4.99">Add to Cart</button>
+            </section >
+            
+            <section class="dish">
+                <img src="images/CW.JPG" alt="Chicken Wings">
+                <h3>Chicken Wings</h3>
+                <p>A delicious mix of chicken, fries, and spices.</p>
+                <p>6.49€</p>
+                 <button class="add-to-cart-btn" data-name="Chicken Wings" data-price="6.49">Add to Cart</button>
+            </section >
+
+            <section  class="dish">
+                <img src="images/DW.jpg" alt="Doner Kebab">
+                <h3>Doner Kebab</h3>
+                <p>A perfect balance of protein and grains.</p>
+                <p>8.49€</p>
+                 <button class="add-to-cart-btn" data-name="Doner Kebab" data-price="8.49">Add to Cart</button>
+            </section >
+
+            <section class="dish">
+                <img src="images/SW.jpg" alt="Shawarma Wrap">
+                <h3>Shawarma Wrap</h3>
+                <p>Served with fresh, warm bread.</p>
+                <p>7.49€</p>
+                 <button class="add-to-cart-btn" data-name="Shawarma Wrap" data-price="7.49">Add to Cart</button>
+            </section>
+        </article>
+        
+    {{!-- my crte sectiobn--}}
+    <div class="cart card shadow-sm p-3">
+    <h5 class="card-title text-center text-danger">Your Cart</h5>
+    <ul class="list-group list-group-flush cart-items mb-3">
+  <li class="list-group-item">No items in cart</li>
+</ul>
+<p class="text-center fw-bold cart-total">Total: €0.00</p>
+    <button class="btn btn-danger w-100 checkout-btn">Checkout</button>
+</div>
+
+    <div id="bottom">
+        <a href="#top" class="scroll-btn to-top-btn">Go to Top</a>
+    </div>
+</main>
+
+<script src="/js/cart.js"></script>
+<script src="/js/checkout.js"></script>
+
+</body>
+</html>
